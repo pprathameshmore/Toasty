@@ -2,7 +2,7 @@
 # Toasty - Bootstrap Style Toasts
 A new way to create toasts, similar like Bootstrap alerts.
 
-[![](https://jitpack.io/v/pprathameshmore/Toasty.svg)](https://jitpack.io/#pprathameshmore/Toasty) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/pprathameshmore/Toasty) [![Known Vulnerabilities](https://snyk.io/test/github/{username}/{repo}/badge.svg)](https://snyk.io/test/github/pprathameshmore/Toasty)
+[![](https://jitpack.io/v/pprathameshmore/Toasty.svg)](https://jitpack.io/#pprathameshmore/Toasty) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/pprathameshmore/Toasty) [![Known Vulnerabilities](https://snyk.io/test/githubpprathameshmore/Toasty/badge.svg)](https://snyk.io/test/github/pprathameshmore/Toasty)
 
 ## Sample Screenshot:
 
