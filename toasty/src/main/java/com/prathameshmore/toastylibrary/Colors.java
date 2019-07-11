@@ -2,14 +2,14 @@ package com.prathameshmore.toastylibrary;
 
 public interface Colors {
 
-    String PRIMARY = "#CCE5FF"; // Primary
-    String SECONDARY = "#D4EDDA";
-    String SUCCESS = "#F8D7DA"; // Green color for success
-    String DANGER = "#F8D7DA"; // Red color for danger
-    String WARNING = "#D1ECF1"; // Yellow color for warning
-    String INFO = "#D6D8D9"; // Blue
-    String LIGHT = "#D6D8D9"; // Light
-    String DARK = "#FFFFFF"; // Dark
+    String PRIMARY = "#0069D9"; // Primary
+    String SECONDARY = "#FFFFFF";
+    String SUCCESS = "#218838"; // Green color for success
+    String DANGER = "#C82333"; // Red color for danger
+    String WARNING = "#E0A800"; // Yellow color for warning
+    String INFO = "#138496"; // Blue
+    String LIGHT = "#E2E6EA"; // Light
+    String DARK = "#23272B"; // Dark
     String TEXT_COLOR = "#ffffff";
 
 
