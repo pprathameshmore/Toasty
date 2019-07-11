@@ -10,6 +10,7 @@ public interface Colors {
     String INFO = "#D6D8D9"; // Blue
     String LIGHT = "#D6D8D9"; // Light
     String DARK = "#FFFFFF"; // Dark
+    String TEXT_COLOR = "#ffffff";
 
 
 }

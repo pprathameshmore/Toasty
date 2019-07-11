@@ -15,7 +15,7 @@ import com.prathameshmore.toastylibrary.ToastyBackground;
 
 public class Toasty  extends ToastyBackground {
 
-    private final static int TEXT_COLOR = 0xffffff; // White color for text
+     // White color for text
     private Context context;
     private View view;
     private LayoutInflater layoutInflater;
@@ -68,7 +68,7 @@ public class Toasty  extends ToastyBackground {
         TextView toastyText = view.findViewById(R.id.text);
         LinearLayout linearLayout =  view.findViewById(R.id.linear_layout);
         linearLayout.setBackground(toastyBackground(type));
-        toastyText.setTextColor(TEXT_COLOR);
+        toastyText.setTextColor(Color.parseColor(Colors.TEXT_COLOR));
         toastyText.setText(text);
         toast.setDuration(duration);
         toast.setView(view);
