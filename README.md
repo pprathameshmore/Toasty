@@ -27,7 +27,7 @@ allprojects {
 ```
 ```groovy
 dependencies {
-     implementation 'com.github.pprathameshmore:Toasty:053e70ac24'
+      implementation 'com.github.pprathameshmore:Toasty:v1.0'
 }
 ```
 ## Usages:
@@ -58,8 +58,6 @@ dependencies {
    dangerToasty();
    warningToasty();  
     ```
-1. Refer Bootstrap alerts
-  https://getbootstrap.com/docs/4.3/components/alerts/ 
 
 ## License (MIT):
 
