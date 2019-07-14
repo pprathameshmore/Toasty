@@ -3,7 +3,8 @@
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/linear_layout"
-    android:gravity="center">
+    android:gravity="center"
+    android:layout_margin="10dp">
 
 
     <TextView

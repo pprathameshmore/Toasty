@@ -4,12 +4,15 @@ A new way to create toasts, similar like Bootstrap alerts.
 
 [![](https://jitpack.io/v/pprathameshmore/Toasty.svg)](https://jitpack.io/#pprathameshmore/Toasty) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/pprathameshmore/Toasty) [![Known Vulnerabilities](https://snyk.io/test/github/pprathameshmore/Toasty/badge.svg)](https://snyk.io/test/github/pprathameshmore/Toasty)
 
+
+### Demo Application
+[![en_badge_web_generic](assets/icon/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.prathameshmore.toasty)
+
 ## Sample Screenshot:
 
 
 
-![device-2019-07-11-171926](assets/screenshots/device-2019-07-11-171926.png)
-
+![device-2019-07-11-171926](assets/screenshots/device-2019-07-11-171926.png )
 
 ## Installation:
 
@@ -27,7 +30,7 @@ allprojects {
 ```
 ```groovy
 dependencies {
-      implementation 'com.github.pprathameshmore:Toasty:v1.0'
+      implementation 'com.github.pprathameshmore:Toasty:v1.1'
 }
 ```
 ## Usages:
@@ -42,22 +45,30 @@ dependencies {
         btnPrimary.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toasty.primaryToasty(MainActivity.this,"I am Primary Toast", Toast.LENGTH_LONG);
+                 toasty.primaryToasty(context, "3 missed call", Toasty.LENGTH_LONG, Toasty.BOTTOM);
             }
         });
 ```
-2. Toasty provides many other methods to implement different types of Toasts.
-3. All Toasty methods takes same parameters as given below
+1. Toasty provides total eight methods to implement different types of Toasts.
+2. All Toasty methods takes same parameters as given below.
     ```java
    Toasty toasty = new Toasty(Context contex);
-    toasty.secondaryToasty(Context context, String text, int duration);
-    infoToasty();
-   lightToasty();
-   darkToasty();
-   successToasty();
-   dangerToasty();
-   warningToasty();  
+     toasty.secondaryToasty(Context context, String text, int duration, int position);
+     infoToasty();
+     lightToasty();
+     darkToasty();
+     successToasty();
+     dangerToasty();
+     warningToasty();  
     ```
+1. The duration can be assigned from`Toasty.LENGTH_LONG` and `Toasty.LENGTH_SHORT`..
+2. As in default`Toast`class, Toasts always are shown at the bottom, but in `Toasty` we have to decide where toast should be displayed.
+3. `Toasty` provides four parameters:
+4.  1. `Toasty.BOTTOM` : To show on the bottom..
+    1.  `Toasty.TOP` :    To show on top.
+    2.  `Toasty.LEFT` : To show on left.
+    3.  `Toasty.RIGHT` : To show on right.
+    4.  `Toasty.TOP | Toasty.RIGHT` : Combining values.
 
 ## License (MIT):
 
