@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Toasty</string>
+    <string name="text">Try Toasty</string>
+    <string name="primary">Primary Toast</string>
+    <string name="secondary">Secondary Toast</string>
+    <string name="success">Success Toast</string>
+    <string name="danger">Danger Toast</string>
+    <string name="warning">Warning Toast</string>
+    <string name="info">Info Toast</string>
+    <string name="light">Light Toast</string>
+    <string name="dark">Dark Toast</string>
+    <string name="github">Star on GitHub</string>
 </resources>
