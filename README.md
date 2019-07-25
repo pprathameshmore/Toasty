@@ -1,8 +1,9 @@
 ![chat](assets/icon/chat.png)
 # Toasty - Bootstrap Style Toasts
-A new way to create toasts, similar like Bootstrap alerts.
+A new way to create toasts, similar to Bootstrap alerts.
 
 [![](https://jitpack.io/v/pprathameshmore/Toasty.svg)](https://jitpack.io/#pprathameshmore/Toasty) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/pprathameshmore/Toasty) [![Known Vulnerabilities](https://snyk.io/test/github/pprathameshmore/Toasty/badge.svg)](https://snyk.io/test/github/pprathameshmore/Toasty)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Toasty-brightgreen.svg?style=plastic)](https://android-arsenal.com/details/1/7781)
 
 
 ### Demo Application
@@ -45,7 +46,7 @@ dependencies {
         btnPrimary.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                 toasty.primaryToasty(context, "3 missed call", Toasty.LENGTH_LONG, Toasty.BOTTOM);
+                 toasty.primaryToasty(context, "3 missed calls", Toasty.LENGTH_LONG, Toasty.BOTTOM);
             }
         });
 ```
