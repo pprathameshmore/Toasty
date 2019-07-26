@@ -3,7 +3,7 @@
 A new way to create toasts, similar to Bootstrap alerts.
 
 [![](https://jitpack.io/v/pprathameshmore/Toasty.svg)](https://jitpack.io/#pprathameshmore/Toasty) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/pprathameshmore/Toasty) [![Known Vulnerabilities](https://snyk.io/test/github/pprathameshmore/Toasty/badge.svg)](https://snyk.io/test/github/pprathameshmore/Toasty)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Toasty-brightgreen.svg?style=plastic)](https://android-arsenal.com/details/1/7781)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Toasty-brightgreen.svg?style=plastic)](https://android-arsenal.com/details/1/7781) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pprathameshmore/Toasty/master) ![GitHub Release Date](https://img.shields.io/github/release-date/pprathameshmore/Toasty) 
 
 
 ### Demo Application
