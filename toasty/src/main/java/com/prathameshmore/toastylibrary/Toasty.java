@@ -42,40 +42,36 @@ public class Toasty  extends ToastyBackground {
         createView();
     }
 
-    public void myToasty() {
-
-    }
-
     public void primaryToasty(Context context, String text, int duration, int position) {
-        toastyType(context,text, duration, Colors.PRIMARY, position);
+        toastyType(context,text, duration, Colors.PRIMARY, position, Colors.TEXT_COLOR);
     }
 
     public void secondaryToasty(Context context, String text, int duration, int position) {
-        toastyType(context, text, duration, Colors.SECONDARY, position);
+        toastyType(context, text, duration, Colors.SECONDARY, position, Colors.TEXT_COLOR);
     }
 
     public void infoToasty(Context context, String text, int duration, int position) {
-        toastyType(context, text, duration, Colors.INFO, position);
+        toastyType(context, text, duration, Colors.INFO, position,Colors.TEXT_COLOR);
     }
 
     public void lightToasty(Context context, String text, int duration, int position) {
-        toastyType(context, text, duration, Colors.LIGHT, position);
+        toastyType(context, text, duration, Colors.LIGHT, position,Colors.DARK_TEXT);
     }
 
     public void darkToasty(Context context, String text, int duration, int position) {
-        toastyType(context, text, duration, Colors.DARK, position);
+        toastyType(context, text, duration, Colors.DARK, position,Colors.TEXT_COLOR);
     }
 
     public void successToasty(Context context, String text, int duration, int position) {
-        toastyType(context, text, duration, Colors.SUCCESS, position);
+        toastyType(context, text, duration, Colors.SUCCESS, position,Colors.TEXT_COLOR);
     }
 
     public void dangerToasty(Context context, String text, int duration, int position) {
-        toastyType(context, text, duration, Colors.DANGER, position);
+        toastyType(context, text, duration, Colors.DANGER, position,Colors.TEXT_COLOR);
     }
 
     public void warningToasty(Context context, String text, int duration, int position) {
-        toastyType(context, text,duration, Colors.WARNING, position);
+        toastyType(context, text,duration, Colors.WARNING, position,Colors.TEXT_COLOR);
     }
 
     private void createView() {
@@ -83,12 +79,12 @@ public class Toasty  extends ToastyBackground {
         view = layoutInflater.inflate(R.layout.toasty_layout, null);
     }
 
-    private Toast toastyType(Context context, String text, int duration, String type, int position) {
+    private Toast toastyType(Context context, String text, int duration, String type, int position, String textColor) {
         init();
         TextView toastyText = view.findViewById(R.id.text);
         LinearLayout linearLayout =  view.findViewById(R.id.linear_layout);
         linearLayout.setBackground(toastyBackground(type));
-        toastyText.setTextColor(Color.parseColor(Colors.TEXT_COLOR));
+        toastyText.setTextColor(Color.parseColor(textColor));
         toastyText.setText(text);
         toast.setDuration(duration);
         toast.setGravity(position,0,Toasty.Y);
