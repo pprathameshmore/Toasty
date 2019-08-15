@@ -31,7 +31,7 @@ allprojects {
 ```
 ```groovy
 dependencies {
-      implementation 'com.github.pprathameshmore:Toasty:v1.1'
+      implementation 'com.github.pprathameshmore:Toasty:v1.2'
 }
 ```
 ## Usages:
